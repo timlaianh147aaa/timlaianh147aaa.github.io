@@ -1,0 +1,32 @@
+/*phần mobile*/
+@media (max-width:768px){
+/* chỉnh phần nav-bar*/
+    .text-nav{
+    display:none;
+}
+#nav-bar{
+    height:autopx;
+    display:block;
+}
+#nav-bar a:link,
+a:visited{
+    display:block;
+    padding:10px;
+    border-left:none;
+    text-align:left;
+}
+/*chỉnh phần thông tin cá nhân*/
+#personal-info{
+    padding-right:25px;
+}
+/*chỉnh phần dự án đến hết*/
+.cer-content-2
+{
+border-left:0;
+border-top: 2px solid #d6c08d;
+padding-top: 20px;
+}
+#footer a:link{
+    margin-right: 10px;
+}
+}
